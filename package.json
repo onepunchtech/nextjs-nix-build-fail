@@ -1,4 +1,6 @@
 {
+  "name": "build-fail",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +10,8 @@
   "dependencies": {
     "next": "canary",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "@types/node": "^18.11.13",
